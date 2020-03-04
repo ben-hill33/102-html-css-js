@@ -1,3 +1,5 @@
-var username = prompt("what is your name");
+function askName(){
+var username = prompt("what is your name?");
 
-document.write(username);
+return document.write('<h1>' + 'Nice to meet you, ' + username + '</h1>');
+}

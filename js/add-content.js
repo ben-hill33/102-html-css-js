@@ -1,3 +1,4 @@
+function offerGreeting(){
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
@@ -10,4 +11,6 @@ if (hourNow > 18) {
 } else {
     greeting = 'Welcome!';
 }
-document.write('<h1>'+ greeting + '</h1>');
+message = '<h1>'+ greeting + '</h1>'
+return document.write(message);
+}
